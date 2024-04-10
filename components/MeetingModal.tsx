@@ -39,7 +39,7 @@ const MeetingModal = ({
                     <Image src={image} alt="checked" width={72} height={72}/>
                 </div>
             )}
-                <h1 className={cn("text-3xl font-bold leading-[42px]", className)}>
+                <h1 className={cn("text-center sm:mb-1 text-3xl font-bold leading-[42px]", className)}>
             {title}
                 </h1>    
           {children}
